@@ -100,18 +100,17 @@ textarea {
 
 html {
   font-size: 16px;
-
 }
 
 body {
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
   text-align: left;
 }
 
 ul {
-  font-size: 1.125em;
   list-style-type: none;
 }
 
@@ -121,23 +120,27 @@ a {
 }
 
 h1 {
+  font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
+  font-weight: 500;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3, h4 {
   font-family: 'Poppins', sans-serif;
-  margin: 20px 0;
   font-size: 1.125em;
+  font-weight: 500;
+  margin: 20px 0;
 }
 
 p {
   font-size: 0.875em;
-  line-height: 1.125em;
+  line-height: 1.285em;
 }
 
 img {
@@ -160,6 +163,7 @@ address {
 /* ------------ Base Header and Footer Styles ------------ */
 
 header, footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,6 +185,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  background: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -196,6 +201,9 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 header nav ul {
@@ -210,6 +218,8 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  color: #fff;
+  text-align: center;
 }
 
 footer p {
@@ -223,10 +233,6 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
-}
-
-footer .contact, .social {
-  text-align: center;
 }
 
 footer .social-icons {
@@ -256,14 +262,11 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
-.hero-area h1 {
-  padding: 55px 0; /* sol. check */
-}
-
 /* Aside - Form */
 
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,19 +277,29 @@ aside .content-wrapper {
 
 }
 
-
-.form-description {
-  padding: 30px 0; /* sol. check */
+aside .form {
+  margin-top: 30px;
 }
 
-
-.form {
-  padding-bottom: 50px; /* sol. check */
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
 }
 
-
-input {
-
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -315,10 +328,12 @@ input {
 
 .features p {
   margin: 0;
+  color: #e1e2ea; /*check color*/
+  text-align: center;
 }
 
 .features-items {
-  padding: 30px 0; /* sol. check */
+  
 }
 
 .font-awesome-icon {
@@ -332,14 +347,16 @@ input {
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  padding: 50px 0; /* sol. check */
+  
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -354,11 +371,11 @@ input {
    About Page
    ========================================================================== */
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 50px 0; /* sol. check */
 }
 
 .mission-content {
@@ -371,14 +388,15 @@ input {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.contact-content {
-
+.contact-content p {
+  margin: 0;
 } 
 
 
@@ -387,6 +405,7 @@ input {
    ========================================================================== */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -403,10 +422,15 @@ input {
 
 .faq h2 {
   margin-bottom: 40px;
+  text-align: left;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 
