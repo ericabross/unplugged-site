@@ -123,12 +123,14 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
   font-weight: 500;
+  margin: 0;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3, h4 {
@@ -214,6 +216,8 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-left: 0;
+  margin: 0;
 }
 
 
@@ -289,7 +293,7 @@ aside {
 }
 
 aside .content-wrapper {
-
+  margin-top: 10px;
 }
 
 aside .form {
@@ -329,6 +333,7 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .features article {
@@ -383,7 +388,7 @@ input[type=button] {
 
 .reviews h3 {
   width: 55%;
-  padding: 20px 0;
+  
 }
 
 
@@ -399,6 +404,8 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
 }
+
+
 
 .mission-content {
 
@@ -624,13 +631,17 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    margin: 50px 0;
+    margin: 30px 0;
   }
 
   aside .content-wrapper .form, 
   aside .content-wrapper .form-description {
-    width: 35%;
+    width: 40%;
     margin: 0;
+  }
+
+  input[type=button] {
+    padding: 15px 0;
   }
 
   /* Features */
@@ -648,7 +659,7 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 60%;
   }
 
   .features i {
@@ -664,7 +675,8 @@ input[type=button] {
   }
 
   .reviews h2 {
-    width: 90%;
+    width: 80%;
+    margin-top: 0;
   }
 
   .reviews article figure, 
@@ -694,6 +706,7 @@ input[type=button] {
   footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
+    margin-top: 0;
   }
 
   footer .contact {
@@ -719,7 +732,7 @@ input[type=button] {
   }
 
   .mission-content p {
-    width: 40%;
+    width: 45%;
   }
 
   .map figure {
@@ -791,7 +804,7 @@ input[type=button] {
   /* Hero */
   
   .hero-area h1 {
-    width: 60%;
+    width: 70%;
     font-size: 3.75em;
   }
 
@@ -813,7 +826,7 @@ input[type=button] {
   /* Features */
 
   .features h2 {
-    width: 70%;
+    width: 88%;
   }
 
   .features article {
@@ -861,6 +874,10 @@ input[type=button] {
 
 .faq-content {
   flex-basis: 35%;
+}
+
+.faq h4 {
+  margin: 0;
 }
 
 .faq h4,
