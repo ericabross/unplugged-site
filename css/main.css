@@ -221,7 +221,6 @@ header nav ul {
 }
 
 
-
 /* Footer Styles */
 
 footer {
@@ -359,17 +358,6 @@ input[type=button] {
   text-align: center;
 }
 
-.features-items {
-  
-}
-
-.font-awesome-icon {
-
-}
-
-.features-item-description {
-
-}
 
 /* Reviews */
 
@@ -378,7 +366,6 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  
 }
 
 .reviews h2 {
@@ -388,10 +375,7 @@ input[type=button] {
 
 .reviews h3 {
   width: 55%;
-  
 }
-
-
 
 
 /* ==========================================================================
@@ -403,12 +387,6 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-
-
-.mission-content {
-
 }
 
 .map figure {
@@ -596,7 +574,6 @@ input[type=button] {
     justify-content: space-between;
   }
 
-
   header figure {
   width: 30%;
 }
@@ -644,6 +621,7 @@ input[type=button] {
     padding: 15px 0;
   }
 
+
   /* Features */
 
   .features h2 {
@@ -667,6 +645,7 @@ input[type=button] {
     margin-bottom: 25px;
   }
   
+
   /* Reviews */
 
   .reviews article {
@@ -779,7 +758,6 @@ input[type=button] {
 
 @media only screen and (min-width: 1200px) {
   
-  
   /* Base Styles */
 
   .content-wrapper {
@@ -872,20 +850,19 @@ input[type=button] {
     font-size: 3em;
   }
 
-.faq-content {
-  flex-basis: 35%;
-}
+  .faq-content {
+    flex-basis: 35%;
+  }
 
-.faq h4 {
-  margin: 0;
-}
+  .faq h4 {
+    margin: 0;
+  }
 
-.faq h4,
-.faq p {
-  font-size: 1.125em;
-  line-height: 1;
-}
-
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 }
 
 /* ==========================================================================
