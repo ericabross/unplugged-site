@@ -391,9 +391,20 @@ input[type=button] {
 
 }
 
-.map {
+.map figure {
   width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+  position: relative;
+}
 
+.map iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .contact-section {
@@ -688,6 +699,10 @@ input[type=button] {
     width: 40%;
   }
 
+  .map figure {
+
+  }
+  
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
